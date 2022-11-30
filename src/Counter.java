@@ -16,15 +16,16 @@ public class Counter {
         return myRows++;
     }
 
-    public void setMyInput(String myInput) {
+    public void increasemyCounter(String myInput) {
         if (!myInput.equals("Stop")) {
             myCounter += myInput.length();
 
         }
-       }
-        public void increasemyRows() {
-            this.myRows++;
-        }
+    }
+
+    public void increasemyRows() {
+        this.myRows++;
+    }
 
 }
 
